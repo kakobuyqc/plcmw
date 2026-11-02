@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#382543">
+<title>Litbuy spreadsheet: guía de tallas, QC y categorías</title>
+<meta name="description" content="Explora Litbuy spreadsheet en español: categorías de moda, criterios de talla, fotos QC y una guía para comparar el coste total antes de comprar.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="Litbuy spreadsheet: elegir con criterio">
+<meta property="og:description" content="Una guía independiente para organizar enlaces, comparar medidas y revisar detalles antes de comprar. Explora las categorías de CAFANS.">
+<meta property="og:image" content="https://si.geilicdn.com/open1792148229-1234478995-2b17000001987e48925d0a23b491_800_800.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Litbuy spreadsheet: elegir con criterio">
+<meta name="twitter:description" content="Categorías, tallas, QC y presupuesto: una guía práctica en español.">
+<meta name="twitter:image" content="https://si.geilicdn.com/open1792148229-1234478995-2b17000001987e48925d0a23b491_800_800.jpg">
+<link rel="preconnect" href="https://si.geilicdn.com" crossorigin>
+<!-- Archivo: index.html. Añadir canonical absoluto cuando se conozca la URL definitiva de publicación. -->
+<!--
+Estrategia editorial:
+Principal: Litbuy spreadsheet.
+Secundarias: Litbuy spreadsheet en español; guía de Litbuy; fotos QC de Litbuy;
+categorías de Litbuy; plantilla de Litbuy spreadsheet.
+
+30 consultas de intención informativa, sin atribuirles volumen de búsqueda:
+1. qué es Litbuy spreadsheet
+2. cómo usar Litbuy spreadsheet
+3. Litbuy spreadsheet en español
+4. cómo organizar enlaces de Litbuy
+5. plantilla de Litbuy spreadsheet
+6. columnas para una hoja de compras
+7. cómo comparar productos de Weidian
+8. cómo guardar referencias de Taobao
+9. cómo identificar variantes en 1688
+10. cómo comprobar enlaces de productos
+11. cómo elegir talla de zapatillas
+12. comparar medidas de una sudadera
+13. guía de tallas para camisetas
+14. cómo medir una chaqueta
+15. medidas de pantalones y shorts
+16. cómo elegir talla de una gorra
+17. cómo comparar conjuntos deportivos
+18. materiales de ropa interior
+19. guía de medidas para camisetas deportivas
+20. cómo revisar cierres de accesorios
+21. fotos QC de Litbuy
+22. qué revisar en fotos de control de calidad
+23. diferencia entre foto comercial y QC
+24. cómo comprobar color y variante
+25. cómo calcular el coste total de compra
+26. precio en yuanes y cambio de moneda
+27. peso real y peso volumétrico
+28. gastos de envío antes de comprar
+29. condiciones de devolución del vendedor
+30. cómo revisar materiales de bisutería
+
+Referencias consultadas para identificar temas, no para reproducir textos:
+ssfinds.com/litbuy-spreadsheet
+litbuybestspreadsheet.com
+lit-buy-spreadsheet.com
+litbuy.asia
+litbuy.wtf/en
+litbuysheetlinks.com/litbuy-spreadsheet-template
+litbuywithqc.com/spreadsheet
+grails.fit/litbuy-spreadsheet (contenido completo no accesible)
+litbuy-ssheet.com
+litbuyplus.com
+La búsqueda disponible no permite certificar posiciones de Google ni sus diez primeros resultados.
+-->
+<style>
+:root{--paper:#f7f4ed;--ink:#292331;--muted:#665f6b;--purple:#382543;--lavender:#e6def0;--lime:#dfebad;--line:#dcd5df;--white:#fff;--radius:18px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}
+a{color:inherit;text-underline-offset:4px}
+a:focus-visible,summary:focus-visible{outline:3px solid #76558a;outline-offset:5px}
+img{display:block;width:100%;height:auto;background:#eee9e4}
+.wrap{width:min(1200px,92%);margin:auto}
+.top{border-bottom:1px solid var(--line)}
+.top .wrap{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-size:1.35rem;font-weight:850;text-decoration:none;letter-spacing:-1px}
+.logo span{font-weight:400;letter-spacing:0;font-size:.8rem;margin-left:12px}
+.top-link{font-size:.85rem;font-weight:650}
+.eyebrow{font-size:.73rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
+.categories{padding:22px 0 26px}
+.category-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-top:12px}
+.category-grid a{display:flex;min-height:58px;justify-content:space-between;align-items:center;padding:12px 14px;border:1px solid var(--line);border-radius:8px;text-decoration:none;font-size:.81rem;gap:8px;background:#fff9}
+.category-grid a::after{content:"↗";color:#756481;flex:none}
+.category-grid a:hover{background:var(--lavender);border-color:#ab94bd}
+.hero{display:grid;grid-template-columns:1.05fr 1fr;background:var(--purple);color:white;border-radius:var(--radius);overflow:hidden}
+.hero-copy{padding:clamp(25px,5vw,64px);align-self:center}
+.hero .eyebrow{color:var(--lime)}
+h1{font-size:clamp(2.6rem,5.3vw,4.7rem);line-height:1.04;letter-spacing:-.06em;margin:20px 0}
+h1 span{display:block;font-size:.56em;letter-spacing:-.04em;color:#e2d4ec;margin-top:18px;line-height:1.15}
+.hero-copy p{color:#ede6f1;max-width:47ch}
+.button{display:inline-flex;align-items:center;gap:24px;padding:13px 20px;background:var(--lime);color:var(--purple);border-radius:7px;font-weight:800;text-decoration:none;margin-top:14px}
+.hero figure{margin:0;background:#eee9e4;display:flex;flex-direction:column}
+.hero img{height:100%;min-height:420px;object-fit:contain}
+.hero figcaption{padding:12px 18px;background:#e6def0;color:#382543;font-size:.75rem}
+.answer{display:grid;grid-template-columns:180px 1fr;gap:30px;padding:30px 0;border-bottom:1px solid var(--line)}
+.answer p{margin:0;max-width:80ch}
+section{margin-top:66px}
+.section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:24px}
+h2{font-size:clamp(1.8rem,3.4vw,2.65rem);line-height:1.15;letter-spacing:-.045em;margin:8px 0 12px}
+h3{font-size:1.15rem;line-height:1.35;letter-spacing:-.02em}
+p{margin:12px 0}
+.muted{color:var(--muted)}
+.section-head p{max-width:48ch;color:var(--muted)}
+.edit-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.edit-grid figure{margin:0;min-width:0}
+.photo{display:block;overflow:hidden;border-radius:12px;border:1px solid var(--line);background:white}
+.photo img{aspect-ratio:1/1;object-fit:contain}
+figcaption h3{margin-bottom:6px}
+figcaption p{font-size:.88rem;color:var(--muted)}
+.caption-tag{font-size:.7rem;font-weight:750;letter-spacing:.12em;text-transform:uppercase;display:block;margin-top:16px;color:#6a4c7c}
+.feature{display:grid;grid-template-columns:.85fr 1.4fr;gap:52px;padding:40px;background:var(--lavender);border-radius:var(--radius)}
+.feature ul{padding-left:20px}
+.table-wrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.87rem}
+th,td{text-align:left;vertical-align:top;padding:14px 10px;border-bottom:1px solid #c9bbd5}
+th{font-size:.75rem}
+td:first-child{font-weight:700}
+.editorial{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px}
+article{border-top:3px solid var(--purple);padding-top:20px}
+.number{font-size:.8rem;font-weight:850;color:#725583}
+article p,article li{font-size:.94rem;color:var(--muted)}
+article ul{padding-left:20px}
+article h3{font-size:1.4rem}
+.note{padding:25px 30px;background:var(--lime);border-radius:12px;margin-top:30px}
+.note p{margin:0}
+.faq-layout{display:grid;grid-template-columns:.7fr 1.3fr;gap:55px}
+details{border-bottom:1px solid var(--line);padding:18px 0}
+summary{cursor:pointer;font-weight:750;padding-right:15px}
+details p{font-size:.94rem;color:var(--muted);max-width:70ch}
+.bottom{padding:38px;background:var(--purple);border-radius:var(--radius);color:white;display:flex;align-items:center;justify-content:space-between;gap:25px}
+.bottom p{color:#e5dcea;max-width:56ch}
+.bottom h2{font-size:2rem}
+footer{margin-top:65px;padding:28px 0;border-top:1px solid var(--line);font-size:.78rem;color:var(--muted)}
+footer p{max-width:110ch}
+@media(max-width:900px){.category-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.hero-copy{padding:30px}.hero img{min-height:350px}.edit-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.feature{gap:25px;padding:28px}.editorial{gap:20px}.faq-layout{gap:25px}}
+@media(max-width:640px){.top .wrap{min-height:68px}.logo span{display:none}.category-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.category-grid a{min-height:51px;font-size:.76rem}.hero,.feature,.faq-layout,.editorial{grid-template-columns:1fr}.hero-copy{padding:30px 24px}.hero img{min-height:0;max-height:370px}.answer{grid-template-columns:1fr;gap:8px;padding:24px 0}.section-head{display:block}.edit-grid{gap:14px}figcaption h3{font-size:1rem}section{margin-top:44px}.feature{padding:24px 18px}.editorial{gap:30px}.bottom{display:block;padding:26px}.note{padding:22px}.top-link{font-size:.76rem}}
+@media(prefers-reduced-motion:no-preference){a{transition:background-color .15s,border-color .15s}}
+</style>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"WebPage",
+      "name":"Litbuy spreadsheet: guía de tallas, QC y categorías",
+      "description":"Guía independiente en español para organizar enlaces, comparar medidas y revisar el coste total antes de comprar.",
+      "inLanguage":"es",
+      "about":{"@type":"Thing","name":"Litbuy spreadsheet"},
+      "hasPart":[
+        {"@type":"Article","headline":"Tallas: compara centímetros antes que etiquetas","inLanguage":"es","description":"Cómo comparar medidas de zapatillas, camisetas, chaquetas, pantalones y gorras."},
+        {"@type":"Article","headline":"Fotos QC: mira la variante, después el acabado","inLanguage":"es","description":"Qué comprobar en las fotos disponibles y qué aspectos no permiten confirmar."},
+        {"@type":"Article","headline":"Presupuesto: calcula el pedido completo","inLanguage":"es","description":"Cómo separar producto, servicios, transporte y posibles cargos de destino."}
+      ]
+    },
+    {
+      "@type":"FAQPage",
+      "inLanguage":"es",
+      "mainEntity":[
+        {
+          "@type":"Question",
+          "name":"¿Qué es Litbuy spreadsheet?",
+          "acceptedAnswer":{"@type":"Answer","text":"Es una hoja o directorio que organiza referencias de productos para facilitar su consulta. Puede incluir enlaces, variantes, imágenes y notas. Su presencia en una lista no garantiza disponibilidad, calidad ni autenticidad."}
+        },
+        {
+          "@type":"Question",
+          "name":"¿Esta página es oficial de Litbuy?",
+          "acceptedAnswer":{"@type":"Answer","text":"No. Es una guía editorial independiente. Los enlaces de navegación llevan a CAFANS y a sus categorías; esta página no tramita pedidos ni representa a Litbuy o a las marcas mencionadas."}
+        },
+        {
+          "@type":"Question",
+          "name":"¿Cómo se elige la talla?",
+          "acceptedAnswer":{"@type":"Answer","text":"Compara las medidas en centímetros de la variante exacta con una prenda o un par que ya te quede bien. Comprueba cómo se tomaron las medidas y evita asumir que una misma etiqueta equivale a la misma talla entre vendedores."}
+        },
+        {
+          "@type":"Question",
+          "name":"¿Las fotos QC demuestran que un artículo es auténtico?",
+          "acceptedAnswer":{"@type":"Answer","text":"No. Las fotos de control de calidad pueden ayudar a revisar detalles visibles, medidas o variantes. Por sí solas no certifican autenticidad, composición, durabilidad ni comodidad."}
+        },
+        {
+          "@type":"Question",
+          "name":"¿Cómo calculo el coste total?",
+          "acceptedAnswer":{"@type":"Answer","text":"Suma producto, transporte de origen, servicios aplicables, envío internacional y posibles cargos de destino. Usa la cotización vigente para tu dirección y distingue una estimación de un importe confirmado."}
+        },
+        {
+          "@type":"Question",
+          "name":"¿Hay una hoja descargable en esta página?",
+          "acceptedAnswer":{"@type":"Answer","text":"No. Aquí encontrarás una guía de uso y una estructura de columnas para crear tu propia hoja. Para explorar referencias, utiliza los accesos al catálogo de CAFANS."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+<link rel="canonical" href="https://kakobuyqc.github.io/plcmw/">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="https://www.cafans.com">CAFANS<span>Cuaderno de selección · ES</span></a>
+    <a class="top-link" href="https://www.cafans.com">Explorar el catálogo ↗</a>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="categories" aria-label="Categorías de productos en CAFANS">
+    <div class="eyebrow">Empieza por una categoría</div>
+    <div class="category-grid">
+      <a href="https://cafans.com/category-911-Shoes.html" lang="en">Shoes</a>
+      <a href="https://cafans.com/category-912-Hoodies%2FSweaters.html" lang="en">Hoodies/Sweaters</a>
+      <a href="https://cafans.com/category-913-T-Shirts.html" lang="en">T-Shirts</a>
+      <a href="https://cafans.com/category-914-Jackets.html" lang="en">Jackets</a>
+      <a href="https://cafans.com/category-915-Pants%2FShorts.html" lang="en">Pants/Shorts</a>
+      <a href="https://cafans.com/category-916-Headwear.html" lang="en">Headwear</a>
+      <a href="https://cafans.com/category-917-Sets.html" lang="en">Sets</a>
+      <a href="https://cafans.com/category-918-underwear%2Funderpants.html" lang="en">Underwear/underpants</a>
+      <a href="https://cafans.com/category-919-Jersey.html" lang="en">Jersey</a>
+      <a href="https://cafans.com/category-920-Accessories.html" lang="en">Accessories</a>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-copy">
+      <div class="eyebrow">Una selección empieza con buenas preguntas</div>
+      <h1>Litbuy spreadsheet<span>Menos pestañas.<br>Más criterio.</span></h1>
+      <p>Ordena tus referencias de moda, compara medidas y revisa lo que muestran las imágenes antes de decidir. Esta guía en español te ayuda a convertir una lista de enlaces en una selección razonada.</p>
+      <a class="button" href="https://www.cafans.com">Descubrir en CAFANS <span aria-hidden="true">↗</span></a>
+      <p><small>Guía independiente · Sin precios ni existencias en tiempo real</small></p>
+    </div>
+    <figure>
+      <img src="https://si.geilicdn.com/open1792148229-1234478995-2b17000001987e48925d0a23b491_800_800.jpg" width="800" height="800" fetchpriority="high" loading="eager" alt="Selección de chaquetas ligeras Nike con capucha mostrada en una imagen de catálogo">
+      <figcaption>Referencia visual de catálogo: chaquetas Nike. Comprueba la variante en la ficha de destino.</figcaption>
+    </figure>
+  </div>
+
+  <aside class="answer" aria-label="Definición breve">
+    <strong class="eyebrow">La respuesta breve</strong>
+    <p>Una <strong>Litbuy spreadsheet</strong> es una hoja o directorio de referencias de productos. Sirve para organizar enlaces, imágenes y notas; aparecer en una lista no garantiza calidad, autenticidad ni disponibilidad. Aquí encontrarás criterios de comparación y accesos al catálogo de CAFANS.</p>
+  </aside>
+
+  <section aria-labelledby="edit-title">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">El detalle cambia la elección</div>
+        <h2 id="edit-title">Observa antes de guardar.</h2>
+      </div>
+      <p>Una imagen orienta sobre el diseño. Para decidir, añade medidas, composición declarada y condiciones de devolución.</p>
+    </div>
+    <div class="edit-grid">
+      <figure>
+        <a class="photo" href="https://www.cafans.com" aria-label="Explorar referencias de Louis Vuitton en CAFANS">
+          <img src="https://si.geilicdn.com/pcitem902107390486-2dd5000001a110538acc0a20e273_2160_2879.jpg" width="2160" height="2879" loading="lazy" decoding="async" alt="Imagen de una corbata identificada como Louis Vuitton en el catálogo de CAFANS">
+        </a>
+        <figcaption>
+          <span class="caption-tag">Louis Vuitton · Proporción</span>
+          <h3>El ancho también importa</h3>
+          <p>En una corbata, compara longitud, ancho y tejido declarado; una fotografía aislada no indica cómo quedará puesta.</p>
+        </figcaption>
+      </figure>
+      <figure>
+        <a class="photo" href="https://www.cafans.com" aria-label="Explorar accesorios Gucci en CAFANS">
+          <img src="https://si.geilicdn.com/open1792148229-1234478995-635f000001987dcfaf190aa0c791_800_800.jpg" width="800" height="800" loading="lazy" decoding="async" alt="Imagen de catálogo de una corbata identificada como Gucci">
+        </a>
+        <figcaption>
+          <span class="caption-tag">Gucci · Acabados</span>
+          <h3>Mira más allá del motivo</h3>
+          <p>Revisa bordes, costuras y reverso si se muestran. El nombre de una marca en una ficha no acredita su procedencia.</p>
+        </figcaption>
+      </figure>
+      <figure>
+        <a class="photo" href="https://www.cafans.com" aria-label="Explorar accesorios Hermès en CAFANS">
+          <img src="https://si.geilicdn.com/open1792148229-1234478995-3ddd000001987dc734220a8133b0_800_800.jpg" width="800" height="800" loading="lazy" decoding="async" alt="Imagen de catálogo de un cinturón identificado como Hermès">
+        </a>
+        <figcaption>
+          <span class="caption-tag">Hermès · Ajuste</span>
+          <h3>Comprueba el punto de cierre</h3>
+          <p>Solicita la distancia de la hebilla a los agujeros. La longitud total del cinturón no equivale al contorno útil.</p>
+        </figcaption>
+      </figure>
+      <figure>
+        <a class="photo" href="https://www.cafans.com" aria-label="Explorar gorras en CAFANS">
+          <img src="https://si.geilicdn.com/open1792148229-1234478995-3cff00000198a0f61c350a8115c2_1080_1080.jpg" width="1080" height="1080" loading="lazy" decoding="async" alt="Gorra de béisbol presentada en una imagen del catálogo de CAFANS">
+        </a>
+        <figcaption>
+          <span class="caption-tag">Gorras · Forma</span>
+          <h3>El contorno no lo explica todo</h3>
+          <p>Compara profundidad de copa, longitud de visera y rango de ajuste para valorar el encaje.</p>
+        </figcaption>
+      </figure>
+    </div>
+    <p class="muted"><small>Imágenes de fichas consultadas en CAFANS. Las denominaciones reproducen la identificación del catálogo y no constituyen una autenticación ni una relación oficial con las marcas.</small></p>
+  </section>
+
+  <section class="feature" aria-labelledby="sheet-title">
+    <div>
+      <div class="eyebrow">Tu hoja, a tu medida</div>
+      <h2 id="sheet-title">Una plantilla útil empieza por la trazabilidad.</h2>
+      <p>Para crear una <strong>plantilla de Litbuy spreadsheet</strong>, guarda el enlace de origen y la variante exacta antes de añadir notas de estilo. Así podrás volver a comprobar qué estabas comparando.</p>
+      <ul>
+        <li>Separa los datos confirmados de las estimaciones.</li>
+        <li>Anota la fecha de cada comprobación.</li>
+        <li>Deja en blanco lo que todavía no sepas.</li>
+      </ul>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <caption>Columnas recomendadas para una hoja personal</caption>
+        <thead><tr><th scope="col">Campo</th><th scope="col">Qué conviene registrar</th></tr></thead>
+        <tbody>
+          <tr><td>Origen y referencia</td><td>Enlace, plataforma e identificador del artículo, si aparece.</td></tr>
+          <tr><td>Variante</td><td>Color, talla, modelo y contenido del conjunto.</td></tr>
+          <tr><td>Medidas</td><td>Centímetros y método de medición indicado por el vendedor.</td></tr>
+          <tr><td>Precio de origen</td><td>Importe, moneda y fecha; separado del transporte.</td></tr>
+          <tr><td>Imágenes</td><td>Distingue fotografías comerciales de fotos QC, cuando existan.</td></tr>
+          <tr><td>Coste estimado</td><td>Servicios, envío y posibles cargos de destino, con sus supuestos.</td></tr>
+          <tr><td>Estado</td><td>Pendiente de comprobar, descartado o seleccionado.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section aria-labelledby="guides-title">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Tres lecturas para decidir mejor</div>
+        <h2 id="guides-title">Guía de Litbuy: del enlace a la comprobación.</h2>
+      </div>
+      <p>Las categorías de Litbuy ayudan a ordenar una búsqueda. Estas comprobaciones sirven para evaluar cada referencia por separado.</p>
+    </div>
+    <div class="editorial">
+      <article aria-labelledby="size-title">
+        <span class="number">01 / TALLAS</span>
+        <h3 id="size-title">Tallas: compara centímetros antes que etiquetas</h3>
+        <p>Para elegir talla de zapatillas, revisa la tabla del modelo y cómo define la medida del pie o de la plantilla. No intercambies ambas medidas sin comprobarlo.</p>
+        <p>En sudaderas y camisetas, compara ancho de pecho, hombros y largo con una prenda que ya uses. En chaquetas, añade espacio para las capas que llevarás debajo.</p>
+        <ul>
+          <li><strong>Pantalones y shorts:</strong> cintura, tiro, cadera y largo.</li>
+          <li><strong>Conjuntos deportivos:</strong> medidas de cada pieza por separado.</li>
+          <li><strong>Camisetas deportivas:</strong> corte y medidas de la versión elegida.</li>
+          <li><strong>Ropa interior:</strong> composición, elasticidad y condiciones de devolución.</li>
+        </ul>
+        <p>Una misma talla escrita puede corresponder a medidas distintas entre vendedores. Si falta una medida importante, solicítala antes de decidir.</p>
+      </article>
+
+      <article aria-labelledby="qc-title">
+        <span class="number">02 / EVIDENCIA VISUAL</span>
+        <h3 id="qc-title">Fotos QC: mira la variante, después el acabado</h3>
+        <p>Al buscar <strong>fotos QC de Litbuy</strong>, distingue las imágenes comerciales de las fotografías vinculadas a una unidad concreta. Una foto de otro color o de otro pedido puede no representar tu variante.</p>
+        <p>Comprueba primero modelo, color y talla visible. Después observa simetría, costuras, manchas, cierres y posibles daños. Si una zona queda oculta, pide otra vista cuando el servicio lo permita.</p>
+        <p>En accesorios y bisutería, revisa medidas, cierre y composición declarada. Una foto no permite confirmar por sí sola el metal, la tolerancia de la piel o la resistencia del acabado.</p>
+        <p><strong>Las fotos QC no certifican autenticidad.</strong> Tampoco sustituyen una comprobación de composición, comodidad o durabilidad.</p>
+      </article>
+
+      <article aria-labelledby="budget-title">
+        <span class="number">03 / PRESUPUESTO</span>
+        <h3 id="budget-title">Presupuesto: calcula el pedido completo</h3>
+        <p>El precio del artículo es solo una parte del presupuesto. Para comparar opciones, separa producto, transporte de origen, servicios aplicables y envío internacional.</p>
+        <p>Si conviertes yuanes a euros u otra moneda, registra el tipo de cambio utilizado y distingue ese cálculo del importe que finalmente cobre el proveedor de pago.</p>
+        <p>Para el transporte, comprueba qué criterio utiliza la cotización: peso real, peso volumétrico u otras condiciones del servicio. El embalaje puede cambiar la estimación.</p>
+        <p>Confirma la dirección de destino, las condiciones vigentes y los posibles cargos adicionales antes de pagar. Una referencia para España no debe asumirse válida para México, Estados Unidos u otro destino.</p>
+      </article>
+    </div>
+    <aside class="note">
+      <p><strong>Una buena regla de selección:</strong> si no puedes identificar el origen, la variante y las medidas relevantes, conserva el artículo como pendiente. Una lista más corta y bien documentada resulta más fácil de comparar.</p>
+    </aside>
+  </section>
+
+  <section aria-labelledby="workflow-title">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Organiza sin perder contexto</div>
+        <h2 id="workflow-title">De Taobao, Weidian o 1688 a una lista clara.</h2>
+      </div>
+    </div>
+    <p>Si guardas referencias de distintas plataformas, conserva cada enlace original junto al nombre del vendedor y el identificador que aparezca. No mezcles fotografías de una publicación con las medidas de otra aunque sus títulos se parezcan.</p>
+    <p>Comprueba los enlaces antes de reutilizar tu hoja: una publicación puede cambiar de variante, de condiciones o dejar de estar disponible. Cuando encuentres una alternativa, añádela como una fila nueva para conservar la comparación.</p>
+    <p>Esta <strong>Litbuy spreadsheet en español</strong> es una guía editorial de organización y selección. Los botones llevan a CAFANS; no importan productos a una cuenta de Litbuy ni crean un pedido.</p>
+  </section>
+
+  <section class="faq-layout" aria-labelledby="faq-title">
+    <div>
+      <div class="eyebrow">Respuestas directas</div>
+      <h2 id="faq-title">Antes de abrir otra pestaña.</h2>
+      <p class="muted">Qué ofrece esta guía, cómo interpretar una lista y qué información conviene confirmar.</p>
+    </div>
+    <div>
+      <details open>
+        <summary>¿Qué es Litbuy spreadsheet?</summary>
+        <p>Es una hoja o directorio que organiza referencias de productos para facilitar su consulta. Puede incluir enlaces, variantes, imágenes y notas. Su presencia en una lista no garantiza disponibilidad, calidad ni autenticidad.</p>
+      </details>
+      <details>
+        <summary>¿Esta página es oficial de Litbuy?</summary>
+        <p>No. Es una guía editorial independiente. Los enlaces de navegación llevan a CAFANS y a sus categorías; esta página no tramita pedidos ni representa a Litbuy o a las marcas mencionadas.</p>
+      </details>
+      <details>
+        <summary>¿Cómo se elige la talla?</summary>
+        <p>Compara las medidas en centímetros de la variante exacta con una prenda o un par que ya te quede bien. Comprueba cómo se tomaron las medidas y evita asumir que una misma etiqueta equivale a la misma talla entre vendedores.</p>
+      </details>
+      <details>
+        <summary>¿Las fotos QC demuestran que un artículo es auténtico?</summary>
+        <p>No. Las fotos de control de calidad pueden ayudar a revisar detalles visibles, medidas o variantes. Por sí solas no certifican autenticidad, composición, durabilidad ni comodidad.</p>
+      </details>
+      <details>
+        <summary>¿Cómo calculo el coste total?</summary>
+        <p>Suma producto, transporte de origen, servicios aplicables, envío internacional y posibles cargos de destino. Usa la cotización vigente para tu dirección y distingue una estimación de un importe confirmado.</p>
+      </details>
+      <details>
+        <summary>¿Hay una hoja descargable en esta página?</summary>
+        <p>No. Aquí encontrarás una guía de uso y una estructura de columnas para crear tu propia hoja. Para explorar referencias, utiliza los accesos al catálogo de CAFANS.</p>
+      </details>
+    </div>
+  </section>
+
+  <section class="bottom" aria-label="Continuar al catálogo">
+    <div>
+      <div class="eyebrow">Tu siguiente selección</div>
+      <h2>Empieza por lo que necesitas.</h2>
+      <p>Explora una categoría, guarda pocas referencias y compara los detalles que afectan a tu elección.</p>
+    </div>
+    <a class="button" href="https://www.cafans.com">Abrir CAFANS <span aria-hidden="true">↗</span></a>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <strong>CAFANS · Cuaderno de selección en español</strong>
+    <p>Contenido informativo independiente. Sin afiliación oficial con Litbuy, Nike, Louis Vuitton, Gucci o Hermès. Las marcas se mencionan para identificar referencias del catálogo; las fotografías no acreditan autenticidad. Comprueba disponibilidad, materiales, condiciones y coste final en el destino correspondiente.</p>
+    <p>Edición del <time datetime="2026-11-02">2 de noviembre de 2026</time> · <a href="https://www.cafans.com">Continuar en CAFANS ↗</a></p>
+  </div>
+</footer>
+</body>
+</html>
